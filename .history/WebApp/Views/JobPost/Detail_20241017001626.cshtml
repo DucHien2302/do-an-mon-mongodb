@@ -1,0 +1,56 @@
+@model JobPost
+
+<section id="contact" class="contact section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <div class="container mt-3 mb-3 bg-body-tertiary border border-info-subtle rounded">
+            <div class="job-card p-4">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h1 class="job-title">@Model.JobTitle</h1>
+                    </div>
+                    @if (ViewBag.IsApplied == false)
+                    {
+                        <a href="/jobpost/apply/@Model.Id" class="btn btn-outline-info float-end">Apply</a>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-3 mb-3 bg-body-tertiary border border-info-subtle rounded">
+            <div class="job-card p-4">
+                <div class="job-info">
+                    <h4 class="mb-3"><strong>Information</strong></h4>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p><strong>Job position: </strong>@Model.JobTitle</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p><strong>Jop type: </strong>@Model.JobType.JobTypeName</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p><strong>Location: </strong>@Model.JobLocation.City, @Model.JobLocation.State,
+                                @Model.JobLocation.Country</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p><strong>Start Date:
+                                </strong>@Model.DateReceivingApplication.ToString("dd-MM-yyyy")</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p><strong>End Date: </strong> @Model.DateExpire.ToString("dd-MM-yyyy")</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p><strong>Salary: </strong> @Model.Salary$</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="job-description">
+                    <h4 class="mb-3 mt-5"><strong>Job Description</strong></h4>
+                    <p><span class="text-info">Description: </span>@Model.JobDescription</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

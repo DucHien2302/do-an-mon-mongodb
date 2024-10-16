@@ -1,0 +1,10 @@
+namespace WebApp.Models;
+public class EducationDetail
+{
+    public string CertificateDegreeName { get; set; } = null!;
+    public string InstituteUniversityName { get; set; } = null!;
+    public DateTime StartingDate { get; set; }
+    public DateTime CompletionDate { get; set; }
+    public decimal Percentage { get; set; }
+    public decimal Cgpa { get; set; }
+}

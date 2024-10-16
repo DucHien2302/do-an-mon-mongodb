@@ -1,0 +1,50 @@
+@model List<JobPost>
+
+<section id="contact" class="contact section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <div class="container">
+
+            <h1 class="d-flex justify-content-center mt-3">My Job</h1>
+
+            <div class="row mb-3">
+                @foreach (var item in Model)
+                {
+                    <div class="col-sm-3 mb-3 mb-sm-0">
+                        <div class="card border-info mt-3">
+                            <div class="card-body">
+                                <h5 class="card-title">@item.JobTitle</h5>
+                                @foreach (var item2 in @ViewBag.JobPostActivity)
+                                {
+                                    if (item2.JobPostId == item.Id)
+                                    {
+                                        <p class="card-text">Apply Date:
+                                            <span class="text-success">@item2.ApplyDate.ToString("dd-MM-yyyy")</span>
+                                        </p>
+                                    }
+                                }
+                                @foreach (var item2 in @ViewBag.JobPostActivity)
+                                {
+                                    if (item2.JobPostId == item.Id && item2.IsAccepted == false)
+                                    {
+                                        <p class="card-text">Status:
+                                            <span class="text-warning">đang phê duyệt</span>
+                                        </p>
+                                    }
+                                    else if (item2.JobPostId == item.Id && item2.IsAccepted == true)
+                                    {
+                                        <p class="card-text">Status:
+                                            <span class="text-success">hồ sơ đã được phê duyệt</span>
+                                        </p>
+                                    }
+                                }
+                                <a href="/jobpost/detail/@item.Id" class="btn btn-outline-info float-end">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>

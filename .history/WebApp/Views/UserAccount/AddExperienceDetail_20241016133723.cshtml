@@ -1,0 +1,86 @@
+@model ExperienceDetail
+
+<div asp-validation-summary="All"></div>
+<form name="frmAdd" action="/useraccount/addexperiencedetail" method="post">
+    <section id="about" class="about section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row mb-2">
+                <label class="col-2" for="jobTitle">Job Title:</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" id="jobTitle" name="JobTitle" />
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <label class="col-2" for="companyName">Company Name:</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" id="companyName" name="CompanyName" />
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <label class="col-2" for="startDate">Start Date:</label>
+                <div class="col-10">
+                    <input class="form-control" type="date" id="startDate" name="StartDate" />
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <label class="col-2" for="endDate">End Date:</label>
+                <div class="col-10">
+                    <input class="form-control" type="date" id="endDate" name="EndDate" />
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <label class="col-2" for="isCurrentJob">Is Current Job:</label>
+                <div class="col-10">
+                    <input class="form-check" type="checkbox" id="isCurrentJob" name="IsCurrentJob" />
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <label class="col-2" for="jobLocationCity">Job Location City:</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" id="jobLocationCity" name="JobLocationCity" />
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <label class="col-2" for="jobLocationState">Job Location State:</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" id="jobLocationState" name="JobLocationState" />
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <label class="col-2" for="jobLocationCountry">Job Location Country:</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" id="jobLocationCountry" name="JobLocationCountry" />
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <label class="col-2" for="description">Description:</label>
+                <div class="col-10">
+                    <textarea class="form-control" id="description" name="Description"></textarea>
+                </div>
+            </div>
+
+            <button class="offset-5 btn btn-outline-primary">Thêm Chi Tiết Kinh Nghiệm</button>
+            <a class="btn btn-outline-primary" href="/useraccount">Back</a>
+        </div>
+    </section>
+</form>
+
+<script>
+    $('input.form-check').click(function () {
+        var out = [false, true];
+        let i = 0;
+        if ($(this).is(':checked')) {
+            i = 1;
+        }
+        $(frmAdd['isCurrentJob']).val(out[i]);
+        console.log(IsCurrentJob);
+    });
+</script>

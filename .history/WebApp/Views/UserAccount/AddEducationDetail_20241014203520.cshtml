@@ -1,0 +1,35 @@
+@model EducationDetail
+
+<form asp-action="AddEducation" method="post">
+    <div class="row mb-2">
+        <label class="col-2" for="certificateDegreeName">Tên chứng chỉ/bằng cấp:</label>
+        <input type="text" id="certificateDegreeName" name="CertificateDegreeName" />
+    </div>
+
+    <div class="row mb-2">
+        <label class="col-2" for="instituteUniversityName">Tên trường đại học/viện:</label>
+        <input type="text" id="instituteUniversityName" name="InstituteUniversityName" />
+    </div>
+
+    <div class="row mb-2">
+        <label class="col-2" for="startingDate">Ngày bắt đầu:</label>
+        <input type="date" id="startingDate" name="StartingDate" />
+    </div>
+
+    <div class="row mb-2">
+        <label class="col-2" for="completionDate">Ngày hoàn thành:</label>
+        <input type="date" id="completionDate" name="CompletionDate" />
+    </div>
+
+    <div class="row mb-2">
+        <label class="col-2" for="percentage">Phần trăm:</label>
+        <input type="number" id="percentage" name="Percentage" />
+    </div>
+
+    <div class="row mb-2">
+        <label class="col-2" for="cgpa">CGPA:</label>
+        <input type="number" id="cgpa" name="CGPA" />
+    </div>
+
+    <button type="submit">Thêm chi tiết giáo dục</button>
+</form>

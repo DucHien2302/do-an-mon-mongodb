@@ -1,0 +1,7 @@
+namespace WebApp.Models;
+
+public class UserRegister
+{
+    public string Email { get; set; } = null!;
+
+}

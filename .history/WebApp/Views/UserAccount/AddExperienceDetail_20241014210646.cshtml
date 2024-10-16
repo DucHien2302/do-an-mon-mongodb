@@ -1,0 +1,50 @@
+@model ExperienceDetail
+
+<form action="/useraccount/addexperiencedetail" method="post">
+    <div class="row mb-2">
+        <label for="jobTitle">Job Title:</label>
+        <input type="text" id="jobTitle" name="JobTitle" />
+    </div>
+
+    <div class="row mb-2">
+        <label for="companyName">Company Name:</label>
+        <input type="text" id="companyName" name="CompanyName" />
+    </div>
+
+    <div class="row mb-2">
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="StartDate" />
+    </div>
+
+    <div class="row mb-2">
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" name="EndDate" />
+    </div>
+
+    <div class="row mb-2">
+        <label for="isCurrentJob">Is Current Job:</label>
+        <input type="checkbox" id="isCurrentJob" name="IsCurrentJob" />
+    </div>
+
+    <div class="row mb-2">
+        <label for="jobLocationCity">Job Location City:</label>
+        <input type="text" id="jobLocationCity" name="JobLocationCity" />
+    </div>
+
+    <div class="row mb-2">
+        <label for="jobLocationState">Job Location State:</label>
+        <input type="text" id="jobLocationState" name="JobLocationState" />
+    </div>
+
+    <div class="row mb-2">
+        <label for="jobLocationCountry">Job Location Country:</label>
+        <input type="text" id="jobLocationCountry" name="JobLocationCountry" />
+    </div>
+
+    <div class="row mb-2">
+        <label for="description">Description:</label>
+        <textarea id="description" name="Description"></textarea>
+    </div>
+
+    <button type="submit">Thêm Chi Tiết Kinh Nghiệm</button>
+</form>

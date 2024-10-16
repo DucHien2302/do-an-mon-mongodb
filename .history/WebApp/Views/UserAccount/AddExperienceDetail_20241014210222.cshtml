@@ -1,0 +1,50 @@
+@model WebApp.Models.ExperienceDetail
+
+<form asp-action="AddExperience" method="post">
+    <div>
+        <label for="jobTitle">Job Title:</label>
+        <input type="text" id="jobTitle" name="JobTitle" />
+    </div>
+
+    <div>
+        <label for="companyName">Company Name:</label>
+        <input type="text" id="companyName" name="CompanyName" />
+    </div>
+
+    <div>
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="StartDate" />
+    </div>
+
+    <div>
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" name="EndDate" />
+    </div>
+
+    <div>
+        <label for="isCurrentJob">Is Current Job:</label>
+        <input type="checkbox" id="isCurrentJob" name="IsCurrentJob" />
+    </div>
+
+    <div>
+        <label for="jobLocationCity">Job Location City:</label>
+        <input type="text" id="jobLocationCity" name="JobLocationCity" />
+    </div>
+
+    <div>
+        <label for="jobLocationState">Job Location State:</label>
+        <input type="text" id="jobLocationState" name="JobLocationState" />
+    </div>
+
+    <div>
+        <label for="jobLocationCountry">Job Location Country:</label>
+        <input type="text" id="jobLocationCountry" name="JobLocationCountry" />
+    </div>
+
+    <div>
+        <label for="description">Description:</label>
+        <textarea id="description" name="Description"></textarea>
+    </div>
+
+    <button type="submit">Thêm Chi Tiết Kinh Nghiệm</button>
+</form>

@@ -1,0 +1,115 @@
+using System.Reflection.Metadata.Ecma335;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using WebApp.Models;
+
+namespace WebApp.Controllers;
+
+public class AuthController : Controller
+{
+    UserAccountRepository userAccountRepository;
+    UserTypeRepository userTypeRepository;
+    public AuthController(IMongoDBConnection connection)
+    {
+        userTypeRepository = new UserTypeRepository(connection);
+        userAccountRepository = new UserAccountRepository(connection);
+    }
+    public async Task<IActionResult> Logout()
+    {
+        if (User != null)
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+        }
+        return Redirect("/");
+    }
+    public IActionResult Login()
+    {
+        ViewData["Title"] = "AITILO";
+        return View();
+    }
+    [HttpPost]
+    public async Task<IActionResult> Login(UserLogin obj)
+    {
+        try
+        {
+            if (ModelState.IsValid)
+            {
+                UserAccount user = userAccountRepository.GetUserAccount(obj);
+                if (user != null)
+                {
+                    List<Claim> claims = new List<Claim>
+                    {
+                        new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                        new Claim(ClaimTypes.Email, user.Email),
+                        new Claim(ClaimTypes.MobilePhone, user.ContactNumber),
+                    };
+                    string role = userTypeRepository.GetUserTypeName(user.UserTypeId.ToString());
+                    if (!string.IsNullOrEmpty(role))
+                    {
+                        claims.Add(new Claim(ClaimTypes.Role, role));
+                    }
+                    ClaimsIdentity identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                    ClaimsPrincipal principal = new ClaimsPrincipal(identity);
+                    await HttpContext.SignInAsync(principal, new AuthenticationProperties
+                    {
+                        IsPersistent = obj.Remember
+                    });
+
+                    TempData["Msg"] = "Login Success";
+                    return Redirect("/auth/about");
+                }
+            }
+        }
+        catch
+        {
+            TempData["Msg"] = "Login Failed!";
+        }
+        return View(obj);
+    }
+    public IActionResult Register()
+    {
+        ViewData["Title"] = "AITILO";
+        ViewBag.userTypes = userTypeRepository.GetUserTypes();
+        return View();
+    }
+    [HttpPost]
+    public IActionResult Register(UserRegister obj)
+    {
+        try
+        {
+            if (ModelState.IsValid)
+            {
+                userAccountRepository.Register(obj);
+            }
+            TempData["Msg"] = "Register Success";
+            return Redirect("/auth/login");
+        }
+        catch
+        {
+            TempData["Msg"] = "Register Failed!";
+        }
+        return View(obj);
+    }
+    [Authorize]
+    public IActionResult About()
+    {
+        ViewData["Title"] = "AITILO";
+        ViewData["Title"] = "AITILO";
+        var email = User?.FindFirst(ClaimTypes.Email)?.Value;
+        return View(userAccountRepository.GetUserAccount(email));
+    }
+    [Authorize]
+    public IActionResult Resume()
+    {
+        ViewData["Title"] = "AITILO";
+        return View();
+    }
+    public IActionResult Error()
+    {
+        ViewData["Title"] = "AITILO";
+        return View();
+    }
+}

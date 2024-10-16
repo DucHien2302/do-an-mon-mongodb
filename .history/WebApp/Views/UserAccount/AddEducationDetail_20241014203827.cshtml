@@ -1,0 +1,53 @@
+@model EducationDetail
+
+<form asp-action="AddEducation" method="post">
+    <section id="about" class="about section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row mb-2">
+                <label class="col-2" for="certificateDegreeName">Tên chứng chỉ/bằng cấp:</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" id="certificateDegreeName" name="CertificateDegreeName" />
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <label class="col-2" for="instituteUniversityName">Tên trường đại học/viện:</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" id="instituteUniversityName"
+                        name="InstituteUniversityName" />
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <label class="col-2" for="startingDate">Ngày bắt đầu:</label>
+                <div class="col-10">
+                    <input class="form-control" type="date" id="startingDate" name="StartingDate" />
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <label class="col-2" for="completionDate">Ngày hoàn thành:</label>
+                <div class="col-10">
+                    <input class="form-control" type="date" id="completionDate" name="CompletionDate" />
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <label class="col-2" for="percentage">Phần trăm:</label>
+                <div class="col-10">
+                    <input class="form-control" type="number" id="percentage" name="Percentage" />
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <label class="col-2" for="cgpa">CGPA:</label>
+                <div class="col-10">
+                    <input class="form-control" type="number" id="cgpa" name="CGPA" />
+                </div>
+            </div>
+
+            <button class="offset-5 btn btn-outline-primary" type="submit">Thêm chi tiết giáo dục</button>
+            <a href="/useraccount">Back</a>
+        </div>
+    </section>
+</form>

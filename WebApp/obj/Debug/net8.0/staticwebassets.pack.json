@@ -1,0 +1,453 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\css\\all.css",
+      "PackagePath": "staticwebassets\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\2ue6vc880oozoh1cd5e3wldullcg.jpg",
+      "PackagePath": "staticwebassets\\img\\2ue6vc880oozoh1cd5e3wldullcg.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\769opiosekjiy4rynikrjlypvla3.jpg",
+      "PackagePath": "staticwebassets\\img\\769opiosekjiy4rynikrjlypvla3.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\7p1x5m1nju2yregisuc0yi2z7td9.jpg",
+      "PackagePath": "staticwebassets\\img\\7p1x5m1nju2yregisuc0yi2z7td9.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\8pjtnbpwe23gwjp6kqfsash9joob.jpg",
+      "PackagePath": "staticwebassets\\img\\8pjtnbpwe23gwjp6kqfsash9joob.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\earth-asia-solid.svg",
+      "PackagePath": "staticwebassets\\img\\earth-asia-solid.svg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\fz9vglu8anjzggoim3p2376guoof.jpg",
+      "PackagePath": "staticwebassets\\img\\fz9vglu8anjzggoim3p2376guoof.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-1.jpg",
+      "PackagePath": "staticwebassets\\img\\masonry-portfolio\\masonry-portfolio-1.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-2.jpg",
+      "PackagePath": "staticwebassets\\img\\masonry-portfolio\\masonry-portfolio-2.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-3.jpg",
+      "PackagePath": "staticwebassets\\img\\masonry-portfolio\\masonry-portfolio-3.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-4.jpg",
+      "PackagePath": "staticwebassets\\img\\masonry-portfolio\\masonry-portfolio-4.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-5.jpg",
+      "PackagePath": "staticwebassets\\img\\masonry-portfolio\\masonry-portfolio-5.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-6.jpg",
+      "PackagePath": "staticwebassets\\img\\masonry-portfolio\\masonry-portfolio-6.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-7.jpg",
+      "PackagePath": "staticwebassets\\img\\masonry-portfolio\\masonry-portfolio-7.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-8.jpg",
+      "PackagePath": "staticwebassets\\img\\masonry-portfolio\\masonry-portfolio-8.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-9.jpg",
+      "PackagePath": "staticwebassets\\img\\masonry-portfolio\\masonry-portfolio-9.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\oq0ybnytdcuj2qr2lwywypqnqexn.jpg",
+      "PackagePath": "staticwebassets\\img\\oq0ybnytdcuj2qr2lwywypqnqexn.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\portfolio\\app-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\app-1.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\portfolio\\books-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\books-1.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\portfolio\\branding-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\branding-1.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\portfolio\\product-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\profile-img.jpg",
+      "PackagePath": "staticwebassets\\img\\profile-img.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-1.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-2.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-3.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-4.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\testimonials\\testimonials-5.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-5.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\uia5xhiu4ovtqsqgsntb1tm7y0z6.jpg",
+      "PackagePath": "staticwebassets\\img\\uia5xhiu4ovtqsqgsntb1tm7y0z6.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\img\\wybyfoywmaoofby9u0ys8jr1rk12.jpg",
+      "PackagePath": "staticwebassets\\img\\wybyfoywmaoofby9u0ys8jr1rk12.jpg"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\js\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\scss\\Readme.txt",
+      "PackagePath": "staticwebassets\\scss\\Readme.txt"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.js.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\css\\prb.txt",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\prb.txt"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.js"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\vendor\\purecounter\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\purecounter\\purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets\\vendor\\purecounter\\purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Study\\momgodb\\WEBSTORE\\WebApp\\wwwroot\\vendor\\waypoints\\noframework.waypoints.js",
+      "PackagePath": "staticwebassets\\vendor\\waypoints\\noframework.waypoints.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebApp.props",
+      "PackagePath": "build\\WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApp.props",
+      "PackagePath": "buildMultiTargeting\\WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebApp.props",
+      "PackagePath": "buildTransitive\\WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

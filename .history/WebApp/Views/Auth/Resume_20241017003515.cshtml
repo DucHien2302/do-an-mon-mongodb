@@ -1,0 +1,89 @@
+@model UserAccount
+
+<!-- Resume Section -->
+<section id="resume" class="resume section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Resume</h2>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="resume-title">Summary</h3>
+
+        <div class="resume-item pb-0">
+          <h4>@(Model?.SeekerProfile?.FirstName ?? "N/A") @(Model?.SeekerProfile?.LastName ?? "N/A")</h4>
+          <p><em>This section provides a brief summary of the user's information. The user,
+              @(Model?.SeekerProfile?.FirstName ?? "N/A")
+              @(Model?.SeekerProfile?.LastName ?? "N/A"), is currently @(Model?.DateOfBirth != null ?
+              (DateTime.Now.Year - Model.DateOfBirth.Year).ToString() : "N/A") years old.</em></p>
+          <ul>
+            <li>Email: @(Model?.Email ?? "N/A")</li>
+            <li>Phone: @(Model?.ContactNumber ?? "N/A")</li>
+            <li>Date of birth: @(Model?.DateOfBirth?.ToString("dd-MM-yyyy") ?? "N/A")</li>
+          </ul>
+        </div><!-- End Resume Item -->
+
+        <h3 class="resume-title">Education</h3>
+        @if (Model?.EducationDetails != null && Model.EducationDetails.Any())
+        {
+          @foreach (var item in Model.EducationDetails)
+          {
+            <div class="resume-item">
+              <h4>@(item.CertificateDegreeName ?? "N/A")</h4>
+              <h5>@(item.StartingDate?.Year.ToString() ?? "N/A") - @(item.CompletionDate?.Year.ToString() ?? "N/A")</h5>
+              <p><em>@(item.InstituteUniversityName ?? "N/A")</em></p>
+              <p>Education is a fundamental aspect of personal and professional development. It provides individuals with
+                the knowledge, skills, and critical thinking abilities necessary to navigate and succeed in an increasingly
+                complex world. From early childhood education to higher education and beyond, the learning journey equips
+                people with the tools to pursue their passions, contribute to society, and achieve their goals.</p>
+            </div>
+
+            <!-- End Resume Item -->
+          }
+        }
+        else
+        {
+          <p>No education details available.</p>
+        }
+      </div>
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <h3 class="resume-title">Professional Experience</h3>
+        @if (Model?.ExperienceDetails != null && Model.ExperienceDetails.Any())
+        {
+          @foreach (var item in Model.ExperienceDetails)
+          {
+            <div class="resume-item">
+              <h4>@(item.JobTitle ?? "N/A")</h4>
+              <h5>@(item.StartDate?.Year.ToString() ?? "N/A") - @(item.EndDate?.Year.ToString() ?? "N/A")</h5>
+              <p><em>@(item.JobLocationState ?? "N/A") - @(item.JobLocationCountry ?? "N/A") - @(item.JobLocationCity ??
+              "N/A")</em></p>
+              <p>@(item.Description ?? "N/A")</p>
+              <ul>
+                <li>Managed a team of 10 software developers to deliver high-quality software solutions on time and within
+                  budget</li>
+                <li>Developed and implemented new processes to improve workflow efficiency, resulting in a 20% increase in
+                  productivity</li>
+                <li>Collaborated with cross-functional teams to design and launch new features, enhancing user experience
+                  and engagement</li>
+              </ul>
+            </div>
+
+            <!-- End Resume Item -->
+          }
+        }
+        else
+        {
+          <p>No professional experience details available.</p>
+        }
+      </div>
+
+    </div>
+
+  </div>
+
+</section><!-- /Resume Section -->

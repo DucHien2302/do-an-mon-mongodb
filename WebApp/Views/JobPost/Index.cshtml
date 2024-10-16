@@ -1,0 +1,32 @@
+@model List<JobPost>
+
+<section id="contact" class="contact section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <div class="container">
+
+            <h1 class="d-flex justify-content-center mt-3">Job</h1>
+
+            <div class="row mb-3">
+                @foreach (var item in Model)
+                {
+                    <div class="col-sm-3 mb-3 mb-sm-0">
+                        <div class="card border-info mt-3">
+                            <div class="card-body">
+                                <h5 class="card-title">@item.JobTitle</h5>
+                                <p class="card-text">Start Date:
+                                    <span class="text-success">@item.DateExpire.ToString("dd-MM-yyyy")</span>
+                                </p>
+                                <p class="card-text">End Date:
+                                    <span class="text-warning">@item.DateReceivingApplication.ToString("dd-MM-yyyy")</span>
+                                </p>
+                                <a href="/jobpost/detail/@item.Id" class="btn btn-outline-info float-end">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>

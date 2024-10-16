@@ -1,0 +1,161 @@
+@model WebApp.Models.UserAccount
+
+<section id="about" class="about section">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center">
+            <div class="col-lg-4">
+                <img src="/img/profile-img.jpg" class="img-fluid" alt="">
+                <div>
+                    <input class="form-control mt-2" type="file" name="f">
+                </div>
+            </div>
+            <div class="col-lg-8 content">
+                <h2>Infomation</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <ul>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <input class="form-control"
+                                    type="text" value="@Model.Email">
+                            </li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>DateOfBirth:</strong>
+                                <input class="form-control" type="date"
+                                    value="@Model.DateOfBirth.ToString("yyyy-mm-dd")">
+                            </li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Gender:</strong>
+                                <select class="form-select">
+                                    <option value="true">Male</option>
+                                    <option value="false">Female</option>
+                                </select>
+                            </li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong>
+                                <input class="form-control" type="text" value="@Model.ContactNumber">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul>
+                            <li><i class="bi bi-chevron-right"></i> <strong>FirstName</strong>
+                                <input class="form-control" type="text" value="@Model.SeekerProfile?.FirstName">
+                            </li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>LastName:</strong>
+                                <input class="form-control" type="text" value="@Model.SeekerProfile?.LastName">
+                            </li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>CurrentSalary:</strong>
+                                <input class="form-control" type="text" value="@Model.SeekerProfile?.CurrentSalary">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <h2>Education</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        @if (Model.EducationDetails != null)
+                        {
+                            @foreach (var item in Model.EducationDetails)
+                            {
+                                <ul>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong>
+                                        <input type="text" class="form-control" value="@item?.CertificateDegreeName">
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Start Date:</strong>
+                                        <input type="date" class="form-control" value="@item?.StartingDate">
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Completion Date:</strong>
+                                        <input type="date" class="form-control" value="@item?.CompletionDate">
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Institute:</strong>
+                                        <input type="text" class="form-control" value="@item?.InstituteUniversityName">
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Persentage:</strong>
+                                        <input type="text" class="form-control" value="@item?.Percentage">
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>CGPA:</strong> <input type="text"
+                                            class="form-control" value="@item?.CGPA"></li>
+                                </ul>
+                            }
+                        }
+                        else
+                        {
+                            <ul>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong>
+                                    <input type="text" class="form-control" value="">
+                                </li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Start Date:</strong>
+                                    <input type="date" class="form-control" value="">
+                                </li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Completion Date:</strong>
+                                    <input type="date" class="form-control" value="">
+                                </li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Institute:</strong>
+                                    <input type="text" class="form-control" value="">
+                                </li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Persentage:</strong>
+                                    <input type="text" class="form-control" value="">
+                                </li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>CGPA:</strong> <input type="text"
+                                        class="form-control" value=""></li>
+                            </ul>
+                        }
+                    </div>
+                    <h2>Experience</h2>
+                    <div class="col-lg-6">
+                        @if (Model.ExperienceDetails != null)
+                        {
+                            @foreach (var item in Model.ExperienceDetails)
+                            {
+                                <ul>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Job Title:</strong>
+                                        <input type="text" class="form-control" value="@item?.JobTitle">
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Company Name:</strong>
+                                        <input type="text" class="form-control" value="@item?.CompanyName">
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Start Date:</strong>
+                                        <input type="date" class="form-control" value="@item?.StartDate.ToString("dd-MM-yyyy")">
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>End Date:</strong>
+                                        <input type="date" class="form-control" value="@item?.EndDate.ToString("dd-MM-yyyy")">
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Location State:</strong>
+                                        <input type="text" class="form-control" value="@item?.JobLocationState">
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Location Country:</strong>
+                                        <input type="text" class="form-control" value="@item?.JobLocationCountry">
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Description:</strong>
+                                        <input type="text" class="form-control" value="@item?.Description">
+                                    </li>
+                                </ul>
+                            }
+                        }
+                        else
+                        {
+                            <ul>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Job Title:</strong>
+                                    <input type="text" class="form-control" value="@item?.JobTitle">
+                                </li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Company Name:</strong>
+                                    <input type="text" class="form-control" value="@item?.CompanyName">
+                                </li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Start Date:</strong>
+                                    <input type="date" class="form-control" value="@item?.StartDate.ToString("dd-MM-yyyy")">
+                                </li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>End Date:</strong>
+                                    <input type="date" class="form-control" value="@item?.EndDate.ToString("dd-MM-yyyy")">
+                                </li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Location State:</strong>
+                                    <input type="text" class="form-control" value="@item?.JobLocationState">
+                                </li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Location Country:</strong>
+                                    <input type="text" class="form-control" value="@item?.JobLocationCountry">
+                                </li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Description:</strong>
+                                    <input type="text" class="form-control" value="@item?.Description">
+                                </li>
+                            </ul>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
